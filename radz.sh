@@ -447,10 +447,9 @@ echo " "
 echo "INSTALLATION COMPLETE!"
 echo " "
 echo "--------------------------- Setup Server Information ---------------------------"
-echo "                         Copyright www.radzvpn.ml	                              "
-echo "                              https://www.radzvpn.ml                            "
-echo "                                (fb.com/RADZVPN)                                "
-echo "                              Modified by RadzVPN                               "
+echo "                         Copyright www.RadzVPN.ml 2019                              "
+echo "                                (fb.com/radzvpn)                                "
+echo "                              Made with 💖 by RadzVPN                           "
 echo "--------------------------------------------------------------------------------"
 echo ""  | tee -a log-install.txt
 echo "Server Included"  | tee -a log-install.txt
@@ -491,4 +490,4 @@ echo "   - Vnstat                  : http://$MYIP:85/vnstat/"  | tee -a log-inst
 echo "   - MRTG                    : http://$MYIP:85/mrtg/"  | tee -a log-install.txt
 echo "   - Installation Log        : cat /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "------------------------------ Made with ? by RadzVPN -----------------------------"
+echo "------------------------------ Made with 💖 by RadzVPN -----------------------------"
