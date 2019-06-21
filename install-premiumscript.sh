@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by http://www.vps-murah.net
-# Modified by RADZVON
+# Made with 💖 by RadzVPN
 
 cd
 sed -i '$ i\screen -AmdS limit /root/limit.sh' /etc/rc.local
@@ -77,6 +77,6 @@ cd
 echo " "
 echo " "
 echo "Premium Script Successfully Update!"
-echo "Modified by RADZVPN"
+echo "Made with 💖 by RadzVPN"
 echo " "
 echo " "
