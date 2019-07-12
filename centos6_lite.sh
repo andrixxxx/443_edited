@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by https://www.hostingtermurah.net
-# Modified by RadzVPN
+# Modified by andrixxxx
 
 #Requirement
 if [ ! -e /usr/bin/curl ]; then
