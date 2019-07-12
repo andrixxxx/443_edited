@@ -12,19 +12,19 @@ FOR OCS PANEL ONLY
 ### Commands
 
 ```
-yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/radzvpn/radzvpn443/master/OCSCentos.sh && chmod +x OCSCentos.sh && ./OCSCentos.sh && rm -f OCSCentos.sh && history -c
+yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/andrixxxx/443_edited/master/OCSCentos.sh && chmod +x OCSCentos.sh && ./OCSCentos.sh && rm -f OCSCentos.sh && history -c
 ```
 
 FOR VPS ONLY
 
 ### Commands
 ```
-yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/radzvpn/radzvpn443/master/radz.sh && chmod +x radz.sh && ./radz.sh && rm -f radz.sh && history -c
+yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/andrixxxx/443_edited/master/radz.sh && chmod +x radz.sh && ./radz.sh && rm -f radz.sh && history -c
 ```
 
 FOR OCS PANEL AND VPS
 
 ### Commands
 ```
-yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/radzvpn/radzvpn443/master/VPSOCSCentos6.sh && chmod +x VPSOCSCentos6.sh && ./VPSOCSCentos6.sh && rm -f VPSOCSCentos6.sh && history -c
+yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/andrixxxx/443_edited/master/VPSOCSCentos6.sh && chmod +x VPSOCSCentos6.sh && ./VPSOCSCentos6.sh && rm -f VPSOCSCentos6.sh && history -c
 ```
