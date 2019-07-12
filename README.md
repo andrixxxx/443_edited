@@ -1,6 +1,6 @@
-# CENTOS 6x64 OCS PANEL AND VPS AUTOSCRIPT BY RADZVPN
+# CENTOS 6x64 OCS PANEL AND VPS AUTOSCRIPT
 
-OCSPANELCENTOS6 is made by RadzVPN to minimize the time consumed and user involvement in setting up your VPS and OCS Panel
+OCSPANELCENTOS6 is made by andrixxxx to minimize the time consumed and user involvement in setting up your VPS and OCS Panel
 
 
 ### How to Use the OCSPanelCentos6 AutoScript
@@ -19,7 +19,7 @@ FOR VPS ONLY
 
 ### Commands
 ```
-yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/andrixxxx/443_edited/master/radz.sh && chmod +x radz.sh && ./radz.sh && rm -f radz.sh && history -c
+yum -y update && yum -y install wget && wget https://raw.githubusercontent.com/andrixxxx/443_edited/master/centos6_lite.sh && chmod +x centos6_lite.sh && ./centos6_lite.sh && rm -f centos6_lite.sh && history -c
 ```
 
 FOR OCS PANEL AND VPS
