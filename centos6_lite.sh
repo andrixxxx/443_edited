@@ -178,7 +178,7 @@ wget -O /etc/openvpn/1194.conf "https://raw.githubusercontent.com/andrixxxx/443_
 if [ "$OS" == "x86_64" ]; then
   wget -O /etc/openvpn/1194.conf "https://raw.githubusercontent.com/andrixxxx/443_edited/master/1194-centos64.conf"
 fi
-wget -O /etc/iptables.up.rules "https://raw.githubusercontent.com/Mhuradz/OCSPanelCentos6i-master/master/iptables.up.rules"
+wget -O /etc/iptables.up.rules "https://raw.githubusercontent.com/andrixxxx/443_edited/master/iptables.up.rules"
 sed -i '$ i\iptables-restore < /etc/iptables.up.rules' /etc/rc.local
 sed -i '$ i\iptables-restore < /etc/iptables.up.rules' /etc/rc.d/rc.local
 MYIP=`dig +short myip.opendns.com @resolver1.opendns.com`;
@@ -330,7 +330,7 @@ refresh_pattern ^ftp: 1440 20% 10080
 refresh_pattern ^gopher: 1440 0% 1440
 refresh_pattern -i (/cgi-bin/|\?) 0 0% 0
 refresh_pattern . 0 20% 4320
-visible_hostname Mhuradz
+visible_hostname andrixxxx
 END
 sed -i $MYIP2 /etc/squid/squid.conf;
 service squid restart
