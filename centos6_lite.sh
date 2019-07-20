@@ -318,7 +318,7 @@ http_access allow manager localhost
 http_access deny manager
 http_access allow localnet
 http_access allow localhost
-http_access allow all
+http_access deny all
 http_port 8888
 http_port 8080
 http_port 8000
