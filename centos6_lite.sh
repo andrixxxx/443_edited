@@ -283,8 +283,8 @@ sed -i "s/\$language = 'nl';/\$language = 'en';/g" config.php
 sed -i 's/Internal/Internet/g' config.php
 sed -i '/SixXS IPv6/d' config.php
 cd
-rm /home/vps/public_html/vnstat/config.php
 cd /home/vps/public_html/vnstat/
+rm config.php
 wget https://raw.githubusercontent.com/andrixxxx/443_edited/master/config.php
 cd
 
