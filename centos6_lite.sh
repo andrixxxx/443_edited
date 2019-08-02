@@ -283,6 +283,10 @@ sed -i "s/\$language = 'nl';/\$language = 'en';/g" config.php
 sed -i 's/Internal/Internet/g' config.php
 sed -i '/SixXS IPv6/d' config.php
 cd
+rm /home/vps/public_html/vnstat/config.php
+cd /home/vps/public_html/vnstat/
+wget https://raw.githubusercontent.com/andrixxxx/443_edited/master/config.php
+cd
 
 # install fail2ban
 yum -y install fail2ban
